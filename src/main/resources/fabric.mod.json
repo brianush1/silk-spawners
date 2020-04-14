@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "silkspawners",
+  "version": "${version}",
+
+  "name": "Silk Spawners",
+  "description": "Use silk touch to collect spawners. Drop anvils on mobs standing on top of spawners to jail them into the spawner.",
+  "authors": [
+    "brianush1"
+  ],
+  "contact": {
+    "homepage": "https://github.com/brianush1/silk-spawners",
+    "sources": "https://github.com/brianush1/silk-spawners"
+  },
+
+  "license": "GPLv3",
+  "icon": "assets/silkspawners/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.brianush1.silkspawners.SilkSpawners"
+    ]
+  },
+  "mixins": [
+    "silkspawners.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.15.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.brianush1.silkspawners.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinSpawnerBlock",
+    "MixinBlock",
+    "MixinFallingBlockEntity"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
